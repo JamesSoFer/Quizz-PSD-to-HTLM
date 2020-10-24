@@ -1,35 +1,39 @@
 //make them to %
 
 #header {
-    max-width: 1440px;
-    height: 105px;
-    background-color: rgba(0,3,23,01);
+    width: 1440px;
+    height: 120px;
+    background-color: rgb(0,3,23);
 }
 
 #icons-header {
     width: 103px;
     float: left;
     margin-left: 104px;
-    margin-top: 43px;
-    margin-bottom: 34px;
+    margin-top: 25px;
     margin-right: 600px;
-}
-
-#menu {
-    float: left;
 }
 
 #menu-list {
     list-style: none;
-    padding: 0;
+    padding: 0px;
+    margin: 0px;
 }
 
 #menu-list li {
     float: left;
     margin-top: 45px;
+    margin-left: 45px;
+    float: left;
+}
+
+#menu_lista li + li {
+    margin-left: 45px;
+    float: left;
 }
 
 #menu-list a {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #feffff;
     font-weight: lighter;
@@ -37,10 +41,13 @@
     text-decoration: none;
 }
 
-#menu_lista li + li {
-    margin-left: 45px;
-}
-
 .menu_responsive {
     display: none;
 }
+
+#icon-fb{
+    float: left;
+    margin-left: 45px;
+    margin-top: 42px;
+}
+
