@@ -1,0 +1,55 @@
+//tablet
+
+@media(max-width: 1023px){
+        .wrapper.space-tablet{ 
+		    > div{
+			    padding: 20px 0;
+        } 
+    }
+
+    #menu-list {
+        display: none;
+    }
+    
+    #icon-fb {
+        display: none;
+    }
+    
+    .menu_responsive {
+        display: inline;
+    } 
+
+    #box-images{
+        margin-left: 8%;
+    }
+
+    .images-packages {
+        margin-left: 2%;
+        margin-bottom: 8%;
+        float: left;
+    }
+
+    .images-packages + .images-packages{
+        margin-left: 2%;
+    }
+
+    #icons-bg {
+        display: none;
+    }
+
+    #whoweare-text {
+        margin-left: 75px;
+        margin-right: 347%;
+        margin-top: -500px;
+    }
+
+    #whoweare-description {
+        position: relative;
+        width: 300px;
+        margin-left: 75px;
+    }
+
+    #footer-list {
+        margin-left: 15%;
+    }
+}

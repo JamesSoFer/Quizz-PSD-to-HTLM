@@ -1,15 +1,16 @@
 #footer {
+    float: left;
     margin-left: 0px;
-    width: 1440px;
-    height: 237px; 
-    background-color: #171717;
+    width: 150%;
+    height: 150%; 
+    background-color: $footer-bg;
 }
 
 #footer-list {
     float: left;
     list-style: none;
-    padding: 0px;
-    margin-left: 451px;
+    padding: 0%;
+    margin-left: 30%;
 }
 
 #footer-list li {
@@ -25,9 +26,9 @@
 }
 
 #footer-list a {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $primary-font;
     font-size: 12px;
-    color: #feffff;
+    color: $white-text;
     font-weight: lighter;
     text-transform: uppercase;
     text-decoration: none;
@@ -40,10 +41,10 @@
 }
 
 #footer-text p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $primary-font;
     font-weight: lighter;
     font-size: 12px;
-    color: #c5c6c6;
+    color: $light-gray;
 }
 
 #footer-text {

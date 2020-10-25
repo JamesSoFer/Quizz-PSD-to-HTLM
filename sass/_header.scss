@@ -1,10 +1,8 @@
-//make them to %
-
 #header {
-    width: 1440px;
-    height: 120px;
-    background-color: rgb(0,3,23);
-}
+    max-width: 1440px;
+    height: 13%;
+    background-color: $header-bg;
+} 
 
 #icons-header {
     width: 103px;
@@ -16,15 +14,15 @@
 
 #menu-list {
     list-style: none;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
+    display: inline;
 }
 
 #menu-list li {
     float: left;
     margin-top: 45px;
     margin-left: 45px;
-    float: left;
 }
 
 #menu_lista li + li {
@@ -33,15 +31,20 @@
 }
 
 #menu-list a {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $primary-font;
     font-size: 12px;
-    color: #feffff;
+    color: $white-text;
     font-weight: lighter;
     text-transform: uppercase;
     text-decoration: none;
 }
 
 .menu_responsive {
+    float: left;
+    margin-left: 450px;
+    margin-top: -75px;
+    color: $white-text;
+    position: absolute;
     display: none;
 }
 
@@ -49,5 +52,6 @@
     float: left;
     margin-left: 45px;
     margin-top: 42px;
+    display: block;
 }
 

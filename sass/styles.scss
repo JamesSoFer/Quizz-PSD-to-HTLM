@@ -1,3 +1,9 @@
+//helpers
+
+@import "variables";
+
+//structure
+
 @import "global";
 @import "helpers";
 @import "header";
@@ -5,3 +11,8 @@
 @import "packages";
 @import "info";
 @import "footer";
+
+//tablet and mobile
+
+@import "tablet";
+@import "mobile";

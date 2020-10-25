@@ -5,7 +5,7 @@ body {
   margin-bottom: 0px; }
 
 h2 {
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 23px;
   font-weight: bold;
   color: #271e3f;
@@ -21,8 +21,8 @@ h2 {
   display: table; }
 
 #header {
-  width: 1440px;
-  height: 120px;
+  max-width: 1440px;
+  height: 13%;
   background-color: #000317; }
 
 #icons-header {
@@ -34,14 +34,14 @@ h2 {
 
 #menu-list {
   list-style: none;
-  padding: 0px;
-  margin: 0px; }
+  padding: 0;
+  margin: 0;
+  display: inline; }
 
 #menu-list li {
   float: left;
   margin-top: 45px;
-  margin-left: 45px;
-  float: left; }
+  margin-left: 45px; }
 
 #menu_lista li + li {
   margin-left: 45px;
@@ -56,19 +56,25 @@ h2 {
   text-decoration: none; }
 
 .menu_responsive {
+  float: left;
+  margin-left: 450px;
+  margin-top: -75px;
+  color: #feffff;
+  position: absolute;
   display: none; }
 
 #icon-fb {
   float: left;
   margin-left: 45px;
-  margin-top: 42px; }
+  margin-top: 42px;
+  display: block; }
 
 #principal-image {
   float: left; }
 
 #packages {
-  width: 1440px;
-  height: 890px;
+  max-width: 1440px;
+  height: 98%;
   float: left; }
 
 #packages-text {
@@ -89,12 +95,14 @@ h2 {
 .images-packages + .images-packages {
   margin-left: 30px; }
 
-#bg-beach {
-  float: left; }
+#whoweare-box {
+  float: left;
+  width: 100%;
+  height: 558px; }
 
 #icons-bg {
   margin-left: 267px;
-  margin-right: 264px;
+  margin-right: 347%;
   margin-top: -264px; }
 
 #whoweare-text {
@@ -110,6 +118,7 @@ h2 {
   text-transform: uppercase; }
 
 #whoweare-description {
+  position: relative;
   width: 540px;
   margin-left: 748px; }
 
@@ -120,16 +129,17 @@ h2 {
   font-weight: normal; }
 
 #footer {
+  float: left;
   margin-left: 0px;
-  width: 1440px;
-  height: 237px;
+  width: 150%;
+  height: 150%;
   background-color: #171717; }
 
 #footer-list {
   float: left;
   list-style: none;
-  padding: 0px;
-  margin-left: 451px; }
+  padding: 0%;
+  margin-left: 30%; }
 
 #footer-list li {
   float: left;
@@ -164,3 +174,40 @@ h2 {
   float: left;
   margin-top: 160px;
   margin-left: -350px; }
+
+@media (max-width: 1023px) {
+  .wrapper.space-tablet > div {
+    padding: 20px 0; }
+  #menu-list {
+    display: none; }
+  #icon-fb {
+    display: none; }
+  .menu_responsive {
+    display: inline; }
+  #box-images {
+    margin-left: 8%; }
+  .images-packages {
+    margin-left: 2%;
+    margin-bottom: 8%;
+    float: left; }
+  .images-packages + .images-packages {
+    margin-left: 2%; }
+  #icons-bg {
+    display: none; }
+  #whoweare-text {
+    margin-left: 75px;
+    margin-right: 347%;
+    margin-top: -500px; }
+  #whoweare-description {
+    position: relative;
+    width: 300px;
+    margin-left: 75px; }
+  #footer-list {
+    margin-left: 15%; } }
+
+@media (max-width: 767px) {
+  #footer-list li {
+    display: none; }
+  #footer-text {
+    margin-top: 44px;
+    margin-left: -37px; } }
